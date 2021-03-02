@@ -9,6 +9,18 @@
     border-color: bisque;
     padding: 5px;
 }
+#cousinspic{
+     width: 20%;
+    border-style: double;
+    border-color: bisque;
+    padding: 5px;
+}
+#friendspic{
+     width: 20%;
+    border-style: double;
+    border-color: bisque;
+    padding: 5px;
+}
 .content{
     background-color: black;
     padding: 30px;
