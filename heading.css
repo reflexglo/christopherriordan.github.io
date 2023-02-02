@@ -1,5 +1,9 @@
+:root{
+    --primary-background: #5CDB95;
+}
+
 body{
-    background-color: bisque;
+    background-color: var(--primary-background);
 }
 #linkslist{
     background-color: black;
