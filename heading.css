@@ -1,5 +1,9 @@
 :root{
     --pbackground: #5CDB95;
+    --sbackground: #8EE4AF;
+    --tbackground: #EDF5E1;
+    --pdetail: #05386B;
+    --sdetail: #379683;
 }
 
 body{

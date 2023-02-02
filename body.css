@@ -1,5 +1,9 @@
 :root{
     --pbackground: #5CDB95;
+    --sbackground: #8EE4AF;
+    --tbackground: #EDF5E1;
+    --pdetail: #05386B;
+    --sdetail: #379683;
 }
 
 #resume{
@@ -10,13 +14,13 @@
     margin-left: 40%;
     width: 20%;
     border-style: double;
-    border-color: var(--pbackground);
+    border-color: var(--pdetail);
     padding: 5px;
 }
 .newpic{
     width: 24%;
     border-style: double;
-    border-color: var(--pbackground);
+    border-color: var(--pdetail);
     padding: 0px;
 }
 .content{
@@ -26,7 +30,7 @@
     margin-right: 27%;
 }
 #bio{
-    color:var(--pbackground);
+    color:var(--tbackground);
     margin-left: 30%;
     margin-right: 30%;
     font-size: 125%;
