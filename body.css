@@ -1,3 +1,7 @@
+:root{
+    --primary-background: #5CDB95;
+}
+
 #resume{
     margin-left: 25%;
     width: 50%;
@@ -6,13 +10,13 @@
     margin-left: 40%;
     width: 20%;
     border-style: double;
-    border-color: bisque;
+    border-color: var(--primary-background);
     padding: 5px;
 }
 .newpic{
     width: 24%;
     border-style: double;
-    border-color: bisque;
+    border-color: var(--primary-background);
     padding: 0px;
 }
 .content{
@@ -22,7 +26,7 @@
     margin-right: 27%;
 }
 #bio{
-    color:bisque;
+    color:var(--primary-background);
     margin-left: 30%;
     margin-right: 30%;
     font-size: 125%;
@@ -35,7 +39,7 @@
     margin-left: 27%;
 }
 #contact{
-    color:bisque;
+    color:var(--primary-background);
     font-size: 125%;
     float: left;
 }
@@ -43,23 +47,23 @@
     margin-left: 30%;
     margin-right: 30%;
     font-size:150%;
-    color:bisque;
+    color:var(--primary-background);
     font-style: oblique;
     border-bottom: dotted;
 }
 .title{
     font-size:125%;
-    color:bisque;
+    color:var(--primary-background);
     font-style: oblique;
     border-bottom: dotted;
 }
 #media{
-    color:bisque;
+    color:var(--primary-background);
     font-size: 125%;
     float:right;
 }
 .info-link{
-    color:bisque;
+    color:var(--primary-background);
     text-decoration: none;
 }
 #filler{
@@ -89,19 +93,19 @@
 #PlanetGame{
     position: relative;
     background-color: black;
-    color: bisque;
+    color: var(--primary-background);
     padding: 20px;
     float:left;
 }
 #FPSGame{
     position: relative;
     background-color: black;
-    color: bisque;
+    color: var(--primary-background);
     padding: 20px;
     float: right;
 }
 .skillstitle{
-    color:bisque;
+    color:var(--primary-background);
     font-size: 175%;
     border-bottom: dotted;
 }
@@ -116,6 +120,6 @@
 }
 .skill{
     font-size: 125%;
-    color: bisque;
+    color: var(--primary-background);
     list-style-type:square;
 }
