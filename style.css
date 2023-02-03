@@ -1,0 +1,275 @@
+:root{
+    --pcontent: #034870;
+    --scontent: #70ffff;
+    --tcontent: #009a9a;
+    --fcontent: #0e2f46;
+    --ptext: #034870;
+    --stext: #00cfcf;
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*Navbar Begin*/
+
+.navbar {
+    width: 10%;
+    float: left;
+    margin-bottom: 25%;
+}
+
+.links {
+    background-color: var(--scontent);
+    padding: 5px;
+    margin-top: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.links:hover{
+    cursor: pointer;
+}
+
+.links a:not(.current){
+    color: var(--ptext);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font: 1vw sans-serif;
+    text-decoration: none;
+}
+
+.current {
+    background-color: var(--tcontent);
+    color: var(--scontent);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font: 1vw sans-serif;
+    text-decoration: none;
+}
+
+.links a:hover:not(.current){
+    background-color: var(--pcontent);
+    color: var(--scontent);
+}
+
+/*Navbar End*/
+
+/*Main Content Begin*/
+
+.main-content {
+    align-self: center;
+    width: 40%;
+    background-color: var(--fcontent);
+    display: inline-block;
+    overflow-x: visible;
+}
+
+.content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-content: center;
+    margin-left: 25%;
+}
+
+.hr {
+    border-color: var(--stext);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-width: 5px;
+}
+
+/*Main Content End*/
+
+/*Home Page Begin*/
+
+.profile-pic {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+#intro-head {
+    text-align: center;
+    font: 2vw sans-serif;
+    color: var(--stext);
+    font-weight: bold;
+}
+
+#about-head, #pics-head, #socials-head {
+    display: inline-block;
+    text-align: center;
+    font: 1.75vw sans-serif;
+    color: var(--stext);
+    font-weight: bold;
+    border-width: 5px;
+    border-color: var(--stext);
+    border-style: solid;
+    border-radius: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.social-title {
+    display: inline-block;
+    text-align: center;
+    font: 1vw sans-serif;
+    color: var(--scontent);
+    margin-left: 25%;
+    width: 50%;
+}
+
+#social-list {
+    list-style: none;
+    margin-top: 0%;
+}
+
+.social-pannel {
+    float: left;
+    width: 45%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.socials {
+    text-align: left;
+    text-decoration: none;
+    font: 0.75vw sans-serif;
+    color: var(--scontent);
+    border-width: 2px;
+    border-color: var(--stext);
+    border-style: solid;
+    padding: 2px;
+}
+
+.info-link {
+    text-decoration: none;
+    color: var(--tcontent);
+}
+
+#intro-info {
+    text-align: center;
+    font: 1.5vw sans-serif;
+    color: var(--tcontent);
+    font-style: oblique;
+}
+
+.bio, #welcome {
+    text-align: center;
+    font: 1vw sans-serif;
+    color: var(--scontent);
+    display: inline-block;
+}
+
+#pics-list {
+    display: inline-block;
+    list-style: none;
+}
+
+.personal-pic {
+    float: left;
+    width: 40%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    border: 10px solid var(--scontent);
+}
+
+/*Home Page End*/
+
+/*Resume Page Begin*/
+
+#resume {
+    width: 95%;
+    margin: 2.5%;
+}
+
+#resume-head {
+    text-align: center;
+    font: 2vw sans-serif;
+    color: var(--stext);
+    font-weight: bold;
+}
+
+/*Resume Page End*/
+
+/*Projects Page Begin*/
+
+#projects-head {
+    text-align: center;
+    font: 2vw sans-serif;
+    color: var(--stext);
+    font-weight: bold;
+}
+
+#projects-info {
+    text-align: center;
+    font: 1.25vw sans-serif;
+    color: var(--tcontent);
+    font-style: oblique;
+}
+
+.project-title {
+    width: 100%;
+    color: var(--stext);
+    font-size: 2em;
+    text-align: center;
+    font-style: oblique;
+}
+
+.project-pic {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.project-desc {
+    color: var(--scontent);
+    font-size: 1.2em;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#page-button-r {
+    background-color: var(--scontent);
+    color: var(--fcontent);
+    width: 10%;
+    float: right;
+    margin-right: 5%;
+    font-size: 2em;
+    margin-bottom: 5%;
+    border-radius: 0% 100% 100% 0%;
+}
+
+#page-button-l {
+    background-color: var(--scontent);
+    color: var(--fcontent);
+    width: 10%;
+    float: left;
+    margin-left: 5%;
+    font-size: 2em;
+    margin-bottom: 5%;
+    border-radius: 100% 0% 0% 100%;
+}
+
+#page-button-r:hover, #page-button-l:hover {
+    cursor: pointer;
+    background-color: var(--pcontent);
+    color: var(--scontent);
+    border-radius: 0% 100% 100% 0%;
+}
+
+#page-button-r:active, #page-button-l:active {
+    background-color: var(--fcontent);
+}
+
+/*Projects Page End */

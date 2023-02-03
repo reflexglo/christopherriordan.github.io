@@ -1,73 +1,160 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="heading.css">
-        <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <ul id="linkslist">
-                <li id="links">
-                    <a href="index.html">Home</a>
-                </li>
-                <li id="links">
-                    <a href="resume.html">Resume</a>
-                </li>
-                <li id="links">
-                    <a class="current">Projects And Skills</a>
-                </li>
-                <li id="links">
-                    <a href="https://github.com/reflexglo/Unity-Projects" target="_blank">Github</a>
-                </li>
-            </ul>
-        </div>
-        <h2 id="pagetitle">Chris Riordan's Projects Page</h2>
-        <div id="projectlist">
-            <div id="PlanetGame">
-                <h2 class="projecttitle">PlanetGame</h2>
-                <p class="projectbio">
-                    This project is a game I worked on over the winter of 2020. It was created with the Unity Engine and coded in C#. 
-                    The goal of the game is to escape the planet you start on before time runs out or the meteors kill you. To escape you 
-                    have to find the spaceship key which can spawn in random locations around the planet. Once you retrieve the key, 
-                    you make your way back to the ship and take off. The reason I made this project specifically is because I believe it shows my
-                    skills, I am fascinated with space, and making games is one of my biggest passions.
-                </p>
-                <img class="projectphoto" src="PlanetGame.png"></img>
+        <div class="content">
+            <div class="navbar">
+                <ul id="linkslist">
+                    <li class="links">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="links">
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li class="links">
+                        <a class="current">Projects</a>
+                    </li>
+                    <li class="links">
+                        <a href="https://github.com/reflexglo/Unity-Projects" target="_blank">Github</a>
+                    </li>
+                </ul>
             </div>
-        <div id="FPSGame">
-            <h2 class="projecttitle">FPSGame</h2>
-            <p class="projectbio">
-                This project is a game I worked on over the summer of 2020. It was created with the Unity Engine and coded in C#. 
-                The goal of the game is to survive as many rounds of zombies as you can. You are given a rifle, pistol, and knife as weapons 
-                to kill the zombies which spawn out of one of the two spawn areas. You are also able to upgrade your weapons by killing 
-                zombies, who give you money, and then spending it at the upgrade machine. The reason I made this project was to keep myself busy, 
-                teach myself several new skills, and create something my friends and I could play.
-            </p>
-            <img class="projectphoto" src="FPSGame.png"></img>
+            <div class="main-content">
+                <h1 id="projects-head">
+                    Projects
+                </h1>
+                <p id="projects-info">
+                    These are just a few of my many games and mini coding projects I've worked on over the years
+                </p>
+                <div id="pg1">
+                    <div class="project">
+                        <hr class="hr">
+                        <h2 class="project-title">FPS Game</h2>
+                        <video class="project-pic" controls>
+                            <source src="FPS.mp4" type="video/mp4">
+                        </video>
+                        <p class="project-desc">
+                            This project is a game I worked on over the summer of 2020. It was created with the Unity Engine and coded in C#. 
+                            The goal of the game is to survive as many rounds of zombies as you can. You are given a rifle, pistol, and knife as weapons 
+                            to kill the zombies which spawn out of one of the two spawn areas. You are also able to upgrade your weapons by killing 
+                            zombies, who give you money, and then spending it at the upgrade machine. The reason I made this project was to keep myself busy, 
+                            teach myself several new skills, and create something my friends and I could play.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <hr class="hr">
+                        <h2 class="project-title">Planet Game</h2>
+                        <video class="project-pic" controls>
+                            <source src="Planet.mp4" type="video/mp4">
+                        </video>
+                        <p class="project-desc">
+                            This project is a game I worked on over the winter of 2020. It was created with the Unity Engine and coded in C#. 
+                            The goal of the game is to escape the planet you start on before time runs out or the meteors kill you. To escape you 
+                            have to find the spaceship key which can spawn in random locations around the planet. Once you retrieve the key, 
+                            you make your way back to the ship and take off. The reason I made this project specifically is because I believe it shows my
+                            skills, I am fascinated with space, and making games is one of my biggest passions.
+                        </p>
+                    </div>
+                </div>
+                <div id="pg2">
+                    <div class="project">
+                        <hr class="hr">
+                        <h2 class="project-title">Ancient Chess</h2>
+                        <video class="project-pic" controls>
+                            <source src="Chess.mp4" type="video/mp4">
+                        </video>
+                        <p class="project-desc">
+                            This project is a game I worked on over the summer of 2022. It was created with the Unity2D Engine and coded in C#. 
+                            The goal of the game is to take out the all of the other player's pieces. There are four different piece types to choose 
+                            from in the beggining of the game, with their own moves and stats as well as mana costs. Players are able to move multiple pieces 
+                            as well as move the same piece multiple times, as long as they have mana to spare. The reason I made this project was to create a game I
+                            always had an idea about and to be able to use this game to teach others in my game development club about making 2D games.
+                        </p>
+                    </div>
+                    <div class="project">
+                        <hr class="hr">
+                        <h2 class="project-title">Mannequin War</h2>
+                        <video class="project-pic" controls>
+                            <source src="Mannequinn.mp4" type="video/mp4">
+                        </video>
+                        <p class="project-desc">
+                            This project is a game I worked on over the fall of 2022. It was created with the Unreal 4 Engine and coded in C. 
+                            This game is an inspiration from the flash game, Stick Wars, and the Steam game, Totally Accurate Battle Simulator. 
+                            It is a 3D tower defense game in which the player can fly around the battlefield and watch their army in action or 
+                            take control of one of their own troops and manually moving them. The game ends when either the player's base or enemy's 
+                            base is destroyed. The reason I made this project was as part of a school project with a friend but also as a combination 
+                            of all of the techniques I've learned up until this point.
+                        </p>
+                    </div>
+                </div>
+                <button id="page-button-l" onclick="click_handler_l()">
+                    <
+                </button>
+                <button id="page-button-r" onclick="click_handler_r()">
+                    >
+                </button>
+            </div>
         </div>
-        </div>
-        <div id="skillslist">
-            <ul>
-                <h2 class="skillstitle">Skills</h2>
-                <li class="skill">
-                    Java/Javascript
-                </li>
-                <li class="skill">
-                    Python
-                </li>
-                <li class="skill">
-                    C++/C#
-                </li>
-                <li class="skill">
-                    HTML/CSS
-                </li>
-                <li class="skill">
-                    Mathematical reasoning
-                </li>
-                <li class="skill">
-                    Logic skills
-                </li>
-            </ul>
-        </div>    
+        <script>
+            let page = 0;
+            let butr = document.getElementById("page-button-r");
+            let butl = document.getElementById("page-button-l");
+            let pg1 = document.getElementById("pg1");
+            let pg2 = document.getElementById("pg2");
+            let page_list = [pg1,pg2];
+            for(let i = 0;i<page_list.length;i++)
+            {
+                if(i == 0)
+                {
+                    page_list[i].hidden = false;
+                }
+                else
+                {
+                    page_list[i].hidden = true;
+                }
+            }
+            butl.hidden = true;
+            butr.hidden = false;
+            function click_handler_r(){
+                page++;
+                switch_page();
+            }
+            function click_handler_l(){
+                page--;
+                switch_page();
+            }
+            function switch_page()
+            {
+                for(let i = 0;i<page_list.length;i++)
+                {
+                    if(i == page)
+                    {
+                        page_list[i].hidden = false;
+                    }
+                    else
+                    {
+                        page_list[i].hidden = true;
+                    }
+                }
+                if(page == 0)
+                {
+                    butl.hidden = true;
+                }
+                else
+                {
+                    butl.hidden = false;
+                }
+                if(page == page_list.length-1)
+                {
+                    butr.hidden = true;
+                }
+                else
+                {
+                    butr.hidden = false;
+                }
+            }
+        </script>
     </body>
 </html>
